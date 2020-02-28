@@ -15,16 +15,16 @@ namespace ProjetoSancesMVC.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult Sobre()
         {
-            ViewData["Message"] = "Your application description page.";
-
+            ViewData["Message"] = "Projeto para empresa Sances.";
+            ViewData["Project"] = "Este é um projeto que estou criando para tentativa de uma vaga de emprego";
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult Contato()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Informações de contato";
 
             return View();
         }
